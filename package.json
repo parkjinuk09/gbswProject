@@ -1,0 +1,25 @@
+{
+    "name": "gbsw_integration",
+    "version": "1.0.0",
+    "description": "GBSW 통합 시스템 백엔드",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "keywords": [],
+    "author": "gbsw-student",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "express-session": "^1.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.15.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
